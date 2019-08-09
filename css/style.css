@@ -4,6 +4,33 @@ body {
 .container {
   position: relative;
 }
+
+.username {
+  width: 25%;
+  height: 6%;
+  border-radius: 50px;
+  text-align: center;
+  color: #4162f6;
+  font-family: "product sans";
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.username::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  
+  color: #4162f6;
+  font-family: "product sans";
+  font-size: 17px;
+  font-weight: bold;
+  opacity: 0.5;
+  border: 2px solid white;
+}
+
+.username:hover{
+  border-color: #00d2ff;
+}
+
 .kpbtn {
   background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
   border-radius: 50px;
@@ -30,4 +57,17 @@ body {
     rgba(76, 120, 183, 1) 0%,
     rgba(34, 70, 122, 1) 90%
   );
+}
+
+.instructions{
+  position: absolute;
+  right: 320px;  
+  top: 455px;
+  color: #fff;
+  font-family: 'product sans';
+  font-weight: bold;
+}
+
+b{
+  color: black;
 }

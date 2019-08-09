@@ -13,11 +13,31 @@
       </div>
       <br />
       <div class="timer">
-        <center>
-          <button type="button" class="btn btn-primary kpbtn">
-            Start Over
-          </button>
-        </center>
+        <form method="POST" action="#">
+          <center>
+            <input type="text" name="username" class="username" placeholder="Username" required /><br /><br />
+            <input
+              type="submit"
+              class="btn btn-primary kpbtn"
+              value="Start Over"
+            />
+          </center>
+        </form>
+        <div class="instructions">
+          <h2>Instructions</h2>
+          <ul>
+            <li>No login or sign Up Required just proceed with your name.</li>
+            <li>
+              Each participant will face 8 questions and each question carry 10
+              points.
+            </li>
+            <li>You're points will be displayed at end of the quiz.</li>
+            <li>
+              You can't undo your answer once you click on
+              <b><i>next button</i></b> and also<b><i>submit button</i></b> at the end.
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </body>
