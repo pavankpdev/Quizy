@@ -1,0 +1,33 @@
+body {
+  background-color: #7a3dfb;
+}
+.container {
+  position: relative;
+}
+.kpbtn {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+  border-radius: 50px;
+  width: 50%;
+  font-size: 25px;
+  font-family: "open sans";
+  font-weight: bold;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid white;
+}
+
+.kpbtn:hover {
+  background-image: radial-gradient(
+    circle 760px at 50.7% 60.5%,
+    rgba(76, 120, 183, 1) 0%,
+    rgba(34, 70, 122, 1) 90%
+  );
+}
