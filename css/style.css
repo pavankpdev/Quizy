@@ -18,7 +18,7 @@ body {
 
 .username::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  
+
   color: #4162f6;
   font-family: "product sans";
   font-size: 17px;
@@ -27,7 +27,7 @@ body {
   border: 2px solid white;
 }
 
-.username:hover{
+.username:hover {
   border-color: #00d2ff;
 }
 
@@ -59,15 +59,81 @@ body {
   );
 }
 
-.instructions{
+.card h4{
+  position:absolute;
+  left:23px;
+  top:12px;
+  color:#434343;
+  font-family:"product sans";
+  font-weight:bold;
+}
+
+.instructions {
   position: absolute;
-  right: 320px;  
+  right: 320px;
   top: 455px;
   color: #fff;
-  font-family: 'product sans';
+  font-family: "product sans";
   font-weight: bold;
 }
 
-b{
+b {
   color: black;
+}
+
+.question {
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  right: 350px;
+  top: 100px;
+  background-color: #fff;
+  width: 650px;
+  height: 350px;
+  max-height: 350px;
+  background-color: #fff;
+  overflow: auto;
+  border-radius: 15px;
+}
+.card b {
+  position: absolute;
+  bottom: 6px;
+  left: 23px;
+  font-family: "open sans";
+  font-weight: "bold";
+}
+.form-radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-block;
+  position: relative;
+  background-color: #7a3dfb;
+  color: #666;
+  top: 50px;
+  left: 23px;
+  height: 30px;
+  width: 30px;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 7px;
+  outline: none;
+}
+.form-radio:checked::before {
+  position: absolute;
+  font: 13px/1 "Open Sans", sans-serif;
+  left: 11px;
+  top: 7px;
+  content: "\02143";
+  transform: rotate(40deg);
+}
+.form-radio:hover {
+  background-color: #24a0ed;
+}
+.form-radio:checked {
+  background-color: #7a3dfb;
+  color: #fff;
 }
